@@ -1,19 +1,19 @@
 # 🐉 Dragon Credit Union Website Rebrand
 
-> 🎓 Project for **CI 101** at **Drexel University**
+> 🎓 Lab project for **CI 101** at **Drexel University**
 
-A rebrand of the website for Dragon Credit Union, a fictional credit union. We started from the credit union's old, outdated site and a new branding guide, then brought every page in line with the new brand.
+Dragon Credit Union is a fictional credit union. In this intro class, we were given a working website and a new branding guide, and the job was to update the site so it matched the new brand. It was one of my first hands-on looks at how HTML and CSS fit together.
 
 **🌐 [View the live site](https://www.cs.drexel.edu/~wi27/dragons_credit/)**
 
-## What I did
+## What I worked on
 
-Working with a lab partner, I:
+The site was provided as starter code; I didn't build it from scratch. With a lab partner, I:
 
-- Applied the new branding across all six pages: logo, banner, and hero images
-- Reworked the site's color scheme in the stylesheet to match the brand guide
-- Updated the CSS and fixed broken image references across every page
-- Fixed the logo on the news page
+- Swapped in the new logos, banner, and images across the pages
+- Edited the text and content to fit the new branding
+- Changed colors in the stylesheet to match the brand guide
+- Fixed image paths that broke along the way
 
 ## Pages
 
@@ -28,4 +28,4 @@ Working with a lab partner, I:
 
 ## Built with
 
-HTML · CSS. The original site and branding guide were provided as course materials; the rebrand work is ours.
+HTML · CSS

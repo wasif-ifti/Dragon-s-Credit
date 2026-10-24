@@ -1,0 +1,255 @@
+/* Dragon Credit Union Styles - Branding Guide Compliant */
+
+/* 5px dark blue rule at very top */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    border-top: 5px solid #07294D;
+}
+
+/* Base text */
+* {
+    box-sizing: border-box;
+}
+
+/* Headlines - dark blue, all caps */
+h1 { font-size: 36px; color: #07294D; text-transform: uppercase; margin: 20px 0 10px; }
+h2 { font-size: 24px; color: #07294D; text-transform: uppercase; margin: 16px 0 8px; }
+h3 { font-size: 20px; color: #07294D; text-transform: uppercase; }
+h4 { font-size: 16px; color: #07294D; text-transform: uppercase; }
+h5 { font-size: 14px; color: #07294D; text-transform: uppercase; }
+h6 { font-size: 12px; color: #07294D; text-transform: uppercase; }
+
+/* Branding bar - white background, logo left */
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Logo with padding */
+#logo {
+    display: block;
+    float: none;
+    padding: 15px 20px;
+    height: 100px;
+}
+
+/* Nav bar - dark blue, full width, below header */
+header nav {
+    background-color: #07294D;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: static;
+    transform: none;
+    height: auto;
+    clear: both;
+    padding: 0;
+}
+
+/* Nav links - equal width, centered, white text */
+header nav a:link,
+header nav a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    padding: 14px 0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    flex: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+header nav a:hover,
+header nav a:active {
+    color: #FFC600;
+    background-color: transparent;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Hero/banner image */
+#banner {
+    width: 100%;
+    max-height: 25vh;
+    object-fit: cover;
+    display: block;
+}
+
+/* Article content */
+article {
+    padding: 30px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Body text */
+p {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+ul {
+    margin: 10px 0 15px 25px;
+}
+
+ul li {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+/* Inline links */
+article a:link {
+    color: #07294D;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline;
+    font-size: inherit;
+}
+
+article a:visited {
+    color: #333333;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline;
+}
+
+article a:hover {
+    color: #006699;
+    background-color: transparent;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #07294D;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: left;
+    border: 1px solid #E1E1E0;
+    font-size: 14px;
+}
+
+td {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border: 1px solid #E1E1E0;
+    font-size: 14px;
+}
+
+tr:nth-child(even) td {
+    background-color: #E1E1E0;
+}
+
+/* Three columns */
+.column {
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+
+.column img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    .column { width: 100%; }
+    header nav { flex-wrap: wrap; }
+}
+
+/* Footer - gold background, dark blue text */
+footer {
+    background-color: #FFC600;
+    padding: 25px 40px 15px;
+    margin-top: 40px;
+    clear: both;
+    position: relative;
+}
+
+footer * {
+    color: #07294D;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: #07294D;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+/* Footer nav - horizontal with pipes */
+footer nav {
+    position: static;
+    transform: none;
+    margin-top: 10px;
+    border-top: 1px solid #07294D;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer nav a:link,
+footer nav a:visited {
+    color: #07294D;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0 10px;
+    display: inline;
+}
+
+footer nav a:hover {
+    color: #006699;
+    text-decoration: underline;
+    background-color: transparent;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Footer address - centered, under rule */
+footer .address {
+    text-align: center;
+    border-top: 1px solid #07294D;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}

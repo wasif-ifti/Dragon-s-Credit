@@ -4,6 +4,8 @@
 
 A rebrand of the website for Dragon Credit Union, a fictional credit union. We started from the credit union's old, outdated site and a new branding guide, then brought every page in line with the new brand.
 
+**🌐 [View the live site](https://www.cs.drexel.edu/~wi27/dragons_credit/)**
+
 ## What I did
 
 Working with a lab partner, I:
